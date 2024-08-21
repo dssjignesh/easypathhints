@@ -17,9 +17,6 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
-        <tab id="dss" translate="label" sortOrder="200">
-            <label>Dss</label>
-        </tab>
         <section id="dss_easypathhints" translate="label" showInDefault="1" showInWebsite="1" showInStore="1">
             <tab>dss</tab>
             <label>Easy Template Path Hints</label>

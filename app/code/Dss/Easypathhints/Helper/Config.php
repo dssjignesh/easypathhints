@@ -19,6 +19,7 @@ declare(strict_types= 1);
 namespace Dss\Easypathhints\Helper;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
+use Magento\Store\Model\ScopeInterface;
 
 class Config
 {
@@ -53,7 +54,7 @@ class Config
     {
         return $this->scopeConfig->getValue(
             $xmlPath,
-            \Magento\Store\Model\ScopeInterface::SCOPE_STORE,
+            ScopeInterface::SCOPE_STORE,
             $storeId
         );
     }
